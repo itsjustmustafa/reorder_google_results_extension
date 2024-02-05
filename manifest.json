@@ -9,7 +9,8 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.google.com/search*"
+                "*://*.google.com/search*",
+                "*://duckduckgo.com/*q=*"
             ],
             "js": [
                 "script.js"
