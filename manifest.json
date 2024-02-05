@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia First",
+    "version": "1.0",
+    "description": "Reorders Google search results so Wikipedia is on top.",
+    "icons": {
+        "48": "icons/wiki-first-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.com/search*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
