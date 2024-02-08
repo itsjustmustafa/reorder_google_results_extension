@@ -35,11 +35,8 @@ if (current_page_url.includes("duckduckgo.com")) {
 }
 
 setTimeout(function () {
-    console.log(results_div_selector);
     var search_results_div = document.querySelector(results_div_selector)
     var search_results = Array.from(search_results_div.querySelectorAll(results_item_selector));
-    console.log(search_results_div);
-    console.log(search_results);
     search_results.slice().reverse().forEach(function (childElement) {
         var cite_elements = childElement.querySelectorAll(results_site_selector);
         var needs_to_swap = false;
