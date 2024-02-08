@@ -16,5 +16,10 @@
                 "script.js"
             ]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "wikifirst@mzza.xyz"
+        }
+    }
 }
