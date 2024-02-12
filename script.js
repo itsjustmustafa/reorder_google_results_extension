@@ -14,11 +14,11 @@ const DUCKDUCKGO_RESULTS_SITE_SELECTOR = "a";
 const DUCKDUCKGO_WAIT_TIME = 1000
 
 
-var current_page_url = window.location.href;
-var results_div_selector = null;
-var results_item_selector = null;
-var results_site_selector = null;
-var wait_time = 0;
+let current_page_url = window.location.href;
+let results_div_selector = null;
+let results_item_selector = null;
+let results_site_selector = null;
+let wait_time = 0;
 
 if (current_page_url.includes("www.google")) {
     results_div_selector = GOOGLE_RESULTS_DIV_SELECTOR;
@@ -35,11 +35,11 @@ if (current_page_url.includes("duckduckgo.com")) {
 }
 
 setTimeout(function () {
-    var search_results_div = document.querySelector(results_div_selector)
-    var search_results = Array.from(search_results_div.querySelectorAll(results_item_selector));
+    const search_results_div = document.querySelector(results_div_selector)
+    const search_results = Array.from(search_results_div.querySelectorAll(results_item_selector));
     search_results.slice().reverse().forEach(function (childElement) {
-        var cite_elements = childElement.querySelectorAll(results_site_selector);
-        var needs_to_swap = false;
+        const cite_elements = childElement.querySelectorAll(results_site_selector);
+        let needs_to_swap = false;
 
         cite_elements.forEach(function (cite_element) {
             if (isWikipediaElement(cite_element)) {
