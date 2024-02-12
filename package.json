@@ -1,12 +1,16 @@
 {
-    "name": "wikipedia_first",
-    "version": "1.1.0",
-    "description": "Places Wikipedia at the top of your search results.",
+    "name": "reorder_google_results_extension",
+    "version": "1.0.0",
+    "description": "Get the https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/",
     "main": "script.js",
-    "author": "Mustafa Barodawala",
-    "license": "MIT",
+    "scripts": {
+        "lint:js": "eslint .",
+        "lint": "npm run lint:js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
-        "eslint": "^8",
-        "prettier": "^3"
+        "eslint": "8.56.0"
     }
 }
