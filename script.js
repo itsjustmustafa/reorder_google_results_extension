@@ -56,3 +56,5 @@ function prioritiseResults(current_page_url, results_div_selector, results_item_
         }
     )
 }
+
+main()
