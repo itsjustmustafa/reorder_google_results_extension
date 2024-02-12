@@ -1,0 +1,16 @@
+{
+    "name": "wikipedia_first",
+    "version": "1.1.0",
+    "description": "Places Wikipedia at the top of your search results.",
+    "main": "script.js",
+    "scripts": {
+        "lint": "eslint .",
+        "format": "prettier --write ."
+    },
+    "author": "Mustafa Barodawala",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8",
+        "prettier": "^3"
+    }
+}
