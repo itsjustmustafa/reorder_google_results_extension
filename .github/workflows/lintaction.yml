@@ -1,0 +1,20 @@
+name: Lint Action
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
+
+jobs:
+  eslint:
+    name: Run linting
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+    steps:
+      - name: Lint Action
+        uses: wearerequired/lint-action@v2.3.0
