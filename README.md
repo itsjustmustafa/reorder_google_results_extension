@@ -1,6 +1,6 @@
 # Wikipedia First
 
-Get the https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/
+Get the extension here: https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/
 
 Places the Wikipedia link at the top of the search results of Google and DuckDuckGo, if its available on the first page.
 
