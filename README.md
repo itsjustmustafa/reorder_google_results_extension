@@ -7,7 +7,7 @@ Get the extension here: https://addons.mozilla.org/en-US/firefox/addon/wikipedia
 
 Places the Wikipedia link at the top of the search results of Google and DuckDuckGo, if its available on the first page.
 
-Enshittification: The decay of a digital platform, coined by Cory Doctorow 
+Enshittification: The decay of a digital platform, coined by Cory Doctorow
 
 https://www.wired.com/story/tiktok-platforms-cory-doctorow/
 
