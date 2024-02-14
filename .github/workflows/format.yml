@@ -7,7 +7,7 @@
 # More details at https://github.com/eslint/eslint
 # and https://eslint.org
 
-name: Lint
+name: Format 
 
 on:
   push:
@@ -18,7 +18,7 @@ on:
 
 jobs:
   eslint:
-    name: Run eslint scanning
+    name: Run prettier scanning
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -32,7 +32,4 @@ jobs:
         run: npm ci 
 
       - name: Run formatting
-        run: npm run format 
-
-      - name: Run linting
-        run: npm run lint
+        run: npm run format
