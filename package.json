@@ -1,16 +1,15 @@
 {
-    "name": "reorder_google_results_extension",
-    "version": "1.0.0",
-    "description": "Get the https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/",
-    "main": "script.js",
-    "scripts": {
-        "lint:js": "eslint .",
-        "lint": "npm run lint:js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "eslint": "8.56.0"
-    }
+  "name": "wikipedia_first",
+  "version": "1.1.0",
+  "description": "Extension that reorders Wikipedia links to be at the top of search results",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mustafa Barodawala",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  }
 }
