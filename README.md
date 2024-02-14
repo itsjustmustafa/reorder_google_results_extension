@@ -1,5 +1,8 @@
 # Wikipedia First
 
+[![Lint](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/lint.yml/badge.svg)](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/lint.yml)
+[![Format](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/format.yml/badge.svg)](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/format.yml)
+
 Get the extension here: https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/
 
 Places the Wikipedia link at the top of the search results of Google and DuckDuckGo, if its available on the first page.
