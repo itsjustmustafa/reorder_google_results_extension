@@ -34,10 +34,10 @@ function main() {
         wait_time = DUCKDUCKGO_WAIT_TIME;
     }
 
-    setTimeout(() => prioritiseResults(current_page_url, results_div_selector, results_item_selector, results_site), wait_time);
+    setTimeout(() => prioritiseResults(current_page_url, results_div_selector, results_item_selector, results_site_selector), wait_time);
 }
 
-function prioritiseResults(current_page_url, results_div_selector, results_item_selector, results_site) {
+function prioritiseResults(current_page_url, results_div_selector, results_item_selector, results_site_selector) {
     const search_results_div = document.querySelector(results_div_selector)
     const search_results = Array.from(search_results_div.querySelectorAll(results_item_selector));
 
