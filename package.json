@@ -4,12 +4,15 @@
   "description": "Extension that reorders Wikipedia links to be at the top of search results",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "format": "prettier ."
   },
   "author": "Mustafa Barodawala",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.56.0",
     "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
   }
 }
