@@ -2,7 +2,7 @@
 
 [![Lint](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/lint.yml/badge.svg)](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/lint.yml)
 [![Format](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/format.yml/badge.svg)](https://github.com/itsjustmustafa/reorder_google_results_extension/actions/workflows/format.yml)
-![Mozilla Add-on Rating](https://img.shields.io/amo/rating/wikifirst%40mzza.xyz?logo=mozilla&link=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fwikipedia-first%2F&link=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fwikipedia-first%2F)
+[![Mozilla Add-on Rating](https://img.shields.io/amo/rating/wikifirst%40mzza.xyz?logo=mozilla&link=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fwikipedia-first%2F&link=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fwikipedia-first%2F)](https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/)
 
 Get the extension here: https://addons.mozilla.org/en-US/firefox/addon/wikipedia-first/
 
