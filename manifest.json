@@ -2,13 +2,19 @@
   "manifest_version": 2,
   "name": "Wikipedia First",
   "version": "1.0",
-  "description": "Reorders Google search results so Wikipedia is on top.",
+  "description": "Reorders Google, DuckDuckGo and Qwant search results so Wikipedia is on top.",
   "icons": {
     "48": "icons/wiki-first-48.png"
   },
+  "permissions": ["*://*.wikipedia.org/*"],
   "content_scripts": [
     {
-      "matches": ["*://*.google.com/search*", "*://duckduckgo.com/*q=*"],
+      "matches": [
+        "*://*.google.com/search*",
+        "*://*.google.fr/search*",
+        "*://duckduckgo.com/*q=*",
+        "*://*.qwant.com/*"
+      ],
       "js": ["script.js"]
     }
   ],
